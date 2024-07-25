@@ -1,5 +1,4 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
-from transformers import LlamaForCausalLM, LlamaTokenizer
 
 def generate_textgpt(prompt, max_length=100):
     """
