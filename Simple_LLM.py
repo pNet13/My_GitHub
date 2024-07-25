@@ -39,6 +39,8 @@ def generate_textgpt(prompt, max_length=100):
     return generated_text
 
 # Example usage
+# This exmaple can be extented for other texts completiong exercises
+
 if __name__ == "__main__":
     prompt = "How was GPT-2 model trained"
     generated_txt = generate_textgpt(prompt)
