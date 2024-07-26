@@ -1,5 +1,5 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
-from transformers import LlamaForCausalLM, LlamaTokenizer
+
 
 def generate_textgpt(prompt, max_length=100):
     """
@@ -40,6 +40,6 @@ def generate_textgpt(prompt, max_length=100):
 
 # Example usage
 if __name__ == "__main__":
-    prompt = "How was GPT-2 model trained"
+    prompt = "Rayhan Kadariya and Aranv Dahal"
     generated_txt = generate_textgpt(prompt)
     print(generated_txt)
