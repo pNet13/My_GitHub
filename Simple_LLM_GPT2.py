@@ -40,6 +40,6 @@ def generate_textgpt(prompt, max_length=100):
 
 # Example usage
 if __name__ == "__main__":
-    prompt = "Type your prompt"
+    prompt = "who are you"
     generated_txt = generate_textgpt(prompt)
     print(generated_txt)
